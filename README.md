@@ -42,12 +42,12 @@ public function createComponentTestForm()
     // suggestion template
     $typeahead->suggestionTemplate = function(Nette\Utils\Html $template) {
         $inner = Nette\Utils\Html::el('div')->setText('{{title}} – {{description}}');
-        return $template->add($inner);
+        return $template->addHtml($inner);
     };
     // empty template
     $typeahead->emptyTemplate = function(Nette\Utils\Html $template) {
         $inner = Nette\Utils\Html::el('div')->setText('nic tu neni');
-        return $template->add($inner);
+        return $template->addHtml($inner);
     };
 
     $form->addSubmit('ok', 'Odeslat');

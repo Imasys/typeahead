@@ -1,5 +1,5 @@
 {
-    "name": "vojtys/typeahead",
+    "name": "imasys/typeahead",
     "description": "Typeahead (twitter/typeahead.js) for Nette - Forms",
     "type": "library",
     "license": ["BSD-3-Clause"],
@@ -7,6 +7,9 @@
     "authors": [
         {
             "name": "Vojtěch Sedláček"
+        },
+        {
+            "name": "Imasys s.r.o."
         }
     ],
     "suggest": {
